@@ -1,0 +1,10 @@
+{
+  "kind":"umeko-plugin","apiVersion":1,"id":"billion-context","name":"Billion Context","version":"1.0.0","icon":"layers",
+  "summary":"长上下文安装检查与状态","description":"默认关闭。检查全局 billion-context 安装和本地代理状态，提供安装引导与管理入口，不包含压缩包本身。",
+  "author":"Umeko","lifecycle":"application","entrypoint":"scripts/plugin.py:create_plugin","page":"qml/Main.qml",
+  "permissions":["process.execute"],"executables":{"bili":{"system":"bili"},"bili-cmd":{"system":"powershell.exe"}},
+  "readme":"README.md","config":"config.json","configSchema":"config.schema.json",
+  "agent":{"document":"AGENT.md","methods":{
+    "status":{"description":"检查全局 billion-context 安装版本与本地代理健康状态，不启动安装或代理","parameters":{"type":"object","properties":{},"additionalProperties":false}}
+  }}
+}
