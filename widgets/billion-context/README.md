@@ -1,6 +1,8 @@
 # Billion Context Widget
 
-A lightweight, built-in-ready status Widget for Umeko Desktop. It checks a global [`billion-context`](https://github.com/ranxianglei/billion-context) installation and its local proxy, then presents installation guidance or opens the author's dashboard.
+[`billion-context`](https://github.com/ranxianglei/billion-context) is a third-party context-compression plugin. It compresses the conversation history sent to the model, so a single session can run for weeks or a month within a small context window (the author reports that 100K is enough) while using about five times fewer tokens.
+
+This is a lightweight, built-in-ready status Widget for Umeko Desktop. It checks a global [`billion-context`](https://github.com/ranxianglei/billion-context) installation and its local proxy, then presents installation guidance or opens the author's dashboard.
 
 The Widget is **disabled by default** and must be enabled explicitly. It does not bundle `billion-context`, implement compression, install packages, start the proxy, or change Pi settings.
 

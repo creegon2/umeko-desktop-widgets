@@ -1,6 +1,6 @@
 {
-  "kind":"umeko-plugin","apiVersion":1,"id":"billion-context","name":"Billion Context","version":"1.0.0","icon":"layers",
-  "summary":"长上下文安装检查与状态","description":"默认关闭。检查全局 billion-context 安装和本地代理状态，提供安装引导与管理入口，不包含压缩包本身。",
+  "kind":"umeko-plugin","apiVersion":1,"id":"billion-context","name":"Billion Context","version":"1.0.1","icon":"layers",
+  "summary":"上下文压缩插件，让长会话少用 token","description":"Billion Context 是第三方的上下文压缩插件：自动压缩发给模型的历史对话，让一个会话可以连续用上数周甚至一个月，100K 的上下文窗口也够用；作者称可节省约 5 倍 token。这个 Widget 默认关闭，开启后检查本机全局安装的 billion-context 版本和本地代理是否在运行，提供安装方法并打开作者的管理面板。它不包含 billion-context 本身，也不会安装软件或启动代理。",
   "author":"Umeko","lifecycle":"application","entrypoint":"scripts/plugin.py:create_plugin","page":"qml/Main.qml",
   "permissions":["process.execute"],"executables":{"bili":{"system":"bili"},"bili-cmd":{"system":"powershell.exe"}},
   "readme":"README.md","config":"config.json","configSchema":"config.schema.json",

@@ -6,7 +6,7 @@ A collection of interesting and practical Widgets for [Umeko Desktop](https://gi
 
 | Widget | What it does |
 | --- | --- |
-| [Billion Context](widgets/billion-context) | Checks a global `billion-context` installation, shows its version and local proxy health, provides installation guidance, and opens the author's dashboard. |
+| [Billion Context](widgets/billion-context) | Status and setup for [`billion-context`](https://github.com/ranxianglei/billion-context), a third-party context-compression plugin that keeps month-long sessions within a small context window and uses fewer tokens. Checks the global installation and local proxy health, provides installation guidance, and opens the author's dashboard. |
 
 ## Install a Widget
 
